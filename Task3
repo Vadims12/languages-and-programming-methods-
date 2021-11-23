@@ -1,0 +1,104 @@
+﻿using System;
+
+namespace Task3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        m1: int flag1 = 0; //Флаги, которые следят за тем,-строки
+            int flag2 = 0; //Чтобы матрица заполнялась ровно по спирали-столбцы
+            int flagheight; //Флаг принимает значение длины
+            int flagwidth; //Флаг принимает значение ширины
+            int countNumber = 1; //Счётчик, который заполняет матрицу
+            int height; //Длина матрицы
+            int width; //ВЫсота матрицы
+            int[,] MassNumber;
+            //Ввод размерности массива
+            while (true)
+            {
+                Console.WriteLine("Вв-те размерность матрицы: ");
+                try
+                {
+                    Console.WriteLine("Вв-те длину матрицы");
+                    height = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Вв-те ширину матрицы");
+                    width = Convert.ToInt32(Console.ReadLine());
+                    if (height < 3 || width < 3)
+                    {
+                        throw new FormatException("Введённая длина/ширина матрицы меньше трёх. Повторите попытку.");
+                    }
+                    break;
+                }
+                catch (FormatException ex)
+                {
+                    Console.WriteLine($"{ex.Message} Размерность матрицы должна быть больше 2");
+                }
+            }
+            flagheight = height;
+            flagwidth = width;
+            MassNumber = new int[height, width];
+            //Заполнение массива
+            while (countNumber <= height * width)
+            {
+                //Заполнение первой строки по часовой
+                if (countNumber <= height * width)
+                {
+                    for (int i = flag2; i < flagwidth; i++)
+                    {
+                        MassNumber[flag1, i] = countNumber;
+                        countNumber++;
+                    }
+                }
+                flag1++;
+                //Заполнение крайнего правого столбца сверху-вниз
+                if (countNumber <= height * width)
+                {
+                    for (int i = flag1; i < flagheight; i++)
+                    {
+                        MassNumber[i, flagwidth - 1] = countNumber;
+                        countNumber++;
+                    }
+                }
+                flagwidth--;
+                //Заполнение нижней строки по часовой стрелке
+                if (countNumber <= height * width)
+                {
+                    for (int i = flagwidth - 1; i >= flag2; i--)
+                    {
+                        MassNumber[flagheight - 1, i] = countNumber;
+                        countNumber++;
+                    }
+                }
+                flagheight--;
+                //Заполнение левого столбца вверх
+                if (countNumber <= height * width)
+                {
+                    for (int i = flagheight - 1; i >= flag1; i--)
+                    {
+                        MassNumber[i, flag2] = countNumber;
+                        countNumber++;
+                    }
+                }
+                flag2++;
+            }
+            //Вывод массива
+            for(int i=0;i<MassNumber.GetLength(0);i++)
+            {
+                for(int j=0;j<MassNumber.GetLength(1);j++)
+                {
+                    Console.Write(MassNumber[i,j]+"\t");
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine("Хотите повторить? 1-да; любая другая кнопка - нет");
+            int c = Convert.ToInt32(Console.ReadLine());
+            if (c == 1)
+            {
+                Console.Clear();
+                goto m1;
+            }
+            return;
+        }
+    }
+}

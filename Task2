@@ -1,0 +1,86 @@
+﻿using System;
+
+namespace Task2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        m1: var rand = new Random();
+            int width;
+            int height;
+            //ВВод данных
+            while (true)
+            {
+                Console.WriteLine("Вв-те размерность матрицы: ");
+                try
+                {
+                    Console.WriteLine("Вв-те длину матрицы");
+                    height = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Вв-те ширину матрицы");
+                    width = Convert.ToInt32(Console.ReadLine());
+                    if (height < 2 || width<2)
+                    {
+                        throw new FormatException("Введённая длина/ширина матрицы меньше двух. Повторите попытку.");
+                    }
+                    break;
+                }
+                catch (FormatException ex)
+                {
+                    Console.WriteLine($"{ex.Message} Размерность матрицы должна быть больше 1");
+                }
+            }
+            //Создание и заполнение массива 
+            int[,] Matrix;
+            Matrix = new int[width, height];
+            for (int i = 0; i < width; i++)
+            {
+                for (int j = 0; j < height; j++)
+                {
+                    Matrix[i, j] = rand.Next(1, 10);
+                }
+            }
+            //Нахождение седловой точки
+            for(int i=0;i<Matrix.GetLength(0);i++)
+            {
+                for (int j = 0; j < Matrix.GetLength(1);j++)
+                {
+                    if(IsMinInRow(Matrix, i, Matrix[i, j]) && IsMaxInColumn(Matrix, j, Matrix[i, j]))
+                        Console.WriteLine("Седловая точка: a[{0}, {1}] = {2}", i, j, Matrix[i, j]);
+                }
+            }
+            //Вывод матрицы
+            for (int i = 0; i < width; i++)
+            {
+                for (int j = 0; j < height  ; j++)
+                {
+                    Console.Write(Matrix[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine("Хотите повторить? 1-да; любая другая кнопка - нет");
+            int c = Convert.ToInt32(Console.ReadLine());
+            if (c == 1)
+            {
+                Console.Clear();
+                goto m1;
+            }
+            return;
+        }
+        static bool IsMinInRow(int[,] matrix, int i, int value)
+        {
+            for (int j = 0; j < matrix.GetLength(1); j++)
+                if (matrix[i, j] < value)
+                    return false;
+            return true;
+        }
+
+        static bool IsMaxInColumn(int[,] matrix, int j, int value)
+        {
+            for (int i = 0; i < matrix.GetLength(0); i++)
+                if (matrix[i, j] > value)
+                    return false;
+            return true;
+        }
+    }
+}

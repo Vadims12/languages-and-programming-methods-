@@ -1,0 +1,11 @@
+C:\Users\37377\Desktop\Новая папка\Figures\bin\Debug\netcoreapp3.1\Figures.exe
+C:\Users\37377\Desktop\Новая папка\Figures\bin\Debug\netcoreapp3.1\Figures.deps.json
+C:\Users\37377\Desktop\Новая папка\Figures\bin\Debug\netcoreapp3.1\Figures.runtimeconfig.json
+C:\Users\37377\Desktop\Новая папка\Figures\bin\Debug\netcoreapp3.1\Figures.runtimeconfig.dev.json
+C:\Users\37377\Desktop\Новая папка\Figures\bin\Debug\netcoreapp3.1\Figures.dll
+C:\Users\37377\Desktop\Новая папка\Figures\bin\Debug\netcoreapp3.1\Figures.pdb
+C:\Users\37377\Desktop\Новая папка\Figures\obj\Debug\netcoreapp3.1\Figures.csprojAssemblyReference.cache
+C:\Users\37377\Desktop\Новая папка\Figures\obj\Debug\netcoreapp3.1\Figures.AssemblyInfoInputs.cache
+C:\Users\37377\Desktop\Новая папка\Figures\obj\Debug\netcoreapp3.1\Figures.AssemblyInfo.cs
+C:\Users\37377\Desktop\Новая папка\Figures\obj\Debug\netcoreapp3.1\Figures.dll
+C:\Users\37377\Desktop\Новая папка\Figures\obj\Debug\netcoreapp3.1\Figures.pdb

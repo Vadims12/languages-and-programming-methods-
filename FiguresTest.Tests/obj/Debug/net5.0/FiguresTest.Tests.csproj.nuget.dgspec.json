@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\37377\\Desktop\\Languages\\Figures_L\\FiguresTest.Tests\\FiguresTest.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\37377\\Desktop\\Languages\\Figures_L\\FiguresTest.Tests\\FiguresTest.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\37377\\Desktop\\Languages\\Figures_L\\FiguresTest.Tests\\FiguresTest.Tests.csproj",
+        "projectName": "FiguresTest.Tests",
+        "projectPath": "C:\\Users\\37377\\Desktop\\Languages\\Figures_L\\FiguresTest.Tests\\FiguresTest.Tests.csproj",
+        "packagesPath": "C:\\Users\\37377\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\37377\\Desktop\\Languages\\Figures_L\\FiguresTest.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\37377\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net50"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net50": {
+            "projectReferences": {
+              "C:\\Users\\37377\\Desktop\\Languages\\Figures_L\\Figures_L\\Figures_L.csproj": {
+                "projectPath": "C:\\Users\\37377\\Desktop\\Languages\\Figures_L\\Figures_L\\Figures_L.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net50": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\37377\\Desktop\\Languages\\Figures_L\\Figures_L\\Figures_L.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\37377\\Desktop\\Languages\\Figures_L\\Figures_L\\Figures_L.csproj",
+        "projectName": "Figures_L",
+        "projectPath": "C:\\Users\\37377\\Desktop\\Languages\\Figures_L\\Figures_L\\Figures_L.csproj",
+        "packagesPath": "C:\\Users\\37377\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\37377\\Desktop\\Languages\\Figures_L\\Figures_L\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\37377\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net50"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net50": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net50": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

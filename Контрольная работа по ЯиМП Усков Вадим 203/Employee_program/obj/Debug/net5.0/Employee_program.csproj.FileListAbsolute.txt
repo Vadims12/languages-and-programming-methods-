@@ -1,0 +1,32 @@
+D:\Work\Информатика\Вадим Усков Контрольная Viber\Лабораторная\Employee_program\Employee_program\obj\Debug\net5.0\Employee_program.csproj.AssemblyReference.cache
+D:\Work\Информатика\Вадим Усков Контрольная Viber\Лабораторная\Employee_program\Employee_program\obj\Debug\net5.0\Employee_program.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Информатика\Вадим Усков Контрольная Viber\Лабораторная\Employee_program\Employee_program\obj\Debug\net5.0\Employee_program.AssemblyInfoInputs.cache
+D:\Work\Информатика\Вадим Усков Контрольная Viber\Лабораторная\Employee_program\Employee_program\obj\Debug\net5.0\Employee_program.AssemblyInfo.cs
+D:\Work\Информатика\Вадим Усков Контрольная Viber\Лабораторная\Employee_program\Employee_program\obj\Debug\net5.0\Employee_program.csproj.CoreCompileInputs.cache
+D:\Work\Информатика\Вадим Усков Контрольная Viber\Лабораторная\Employee_program\Employee_program\bin\Debug\net5.0\Employee_program.exe
+D:\Work\Информатика\Вадим Усков Контрольная Viber\Лабораторная\Employee_program\Employee_program\bin\Debug\net5.0\Employee_program.deps.json
+D:\Work\Информатика\Вадим Усков Контрольная Viber\Лабораторная\Employee_program\Employee_program\bin\Debug\net5.0\Employee_program.runtimeconfig.json
+D:\Work\Информатика\Вадим Усков Контрольная Viber\Лабораторная\Employee_program\Employee_program\bin\Debug\net5.0\Employee_program.runtimeconfig.dev.json
+D:\Work\Информатика\Вадим Усков Контрольная Viber\Лабораторная\Employee_program\Employee_program\bin\Debug\net5.0\Employee_program.dll
+D:\Work\Информатика\Вадим Усков Контрольная Viber\Лабораторная\Employee_program\Employee_program\bin\Debug\net5.0\ref\Employee_program.dll
+D:\Work\Информатика\Вадим Усков Контрольная Viber\Лабораторная\Employee_program\Employee_program\bin\Debug\net5.0\Employee_program.pdb
+D:\Work\Информатика\Вадим Усков Контрольная Viber\Лабораторная\Employee_program\Employee_program\obj\Debug\net5.0\Employee_program.dll
+D:\Work\Информатика\Вадим Усков Контрольная Viber\Лабораторная\Employee_program\Employee_program\obj\Debug\net5.0\ref\Employee_program.dll
+D:\Work\Информатика\Вадим Усков Контрольная Viber\Лабораторная\Employee_program\Employee_program\obj\Debug\net5.0\Employee_program.pdb
+D:\Work\Информатика\Вадим Усков Контрольная Viber\Лабораторная\Employee_program\Employee_program\obj\Debug\net5.0\Employee_program.genruntimeconfig.cache
+C:\Users\37377\Desktop\Employee_program\Employee_program\bin\Debug\net5.0\Employee_program.exe
+C:\Users\37377\Desktop\Employee_program\Employee_program\bin\Debug\net5.0\Employee_program.deps.json
+C:\Users\37377\Desktop\Employee_program\Employee_program\bin\Debug\net5.0\Employee_program.runtimeconfig.json
+C:\Users\37377\Desktop\Employee_program\Employee_program\bin\Debug\net5.0\Employee_program.runtimeconfig.dev.json
+C:\Users\37377\Desktop\Employee_program\Employee_program\bin\Debug\net5.0\Employee_program.dll
+C:\Users\37377\Desktop\Employee_program\Employee_program\bin\Debug\net5.0\ref\Employee_program.dll
+C:\Users\37377\Desktop\Employee_program\Employee_program\bin\Debug\net5.0\Employee_program.pdb
+C:\Users\37377\Desktop\Employee_program\Employee_program\obj\Debug\net5.0\Employee_program.csproj.AssemblyReference.cache
+C:\Users\37377\Desktop\Employee_program\Employee_program\obj\Debug\net5.0\Employee_program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\37377\Desktop\Employee_program\Employee_program\obj\Debug\net5.0\Employee_program.AssemblyInfoInputs.cache
+C:\Users\37377\Desktop\Employee_program\Employee_program\obj\Debug\net5.0\Employee_program.AssemblyInfo.cs
+C:\Users\37377\Desktop\Employee_program\Employee_program\obj\Debug\net5.0\Employee_program.csproj.CoreCompileInputs.cache
+C:\Users\37377\Desktop\Employee_program\Employee_program\obj\Debug\net5.0\Employee_program.dll
+C:\Users\37377\Desktop\Employee_program\Employee_program\obj\Debug\net5.0\ref\Employee_program.dll
+C:\Users\37377\Desktop\Employee_program\Employee_program\obj\Debug\net5.0\Employee_program.pdb
+C:\Users\37377\Desktop\Employee_program\Employee_program\obj\Debug\net5.0\Employee_program.genruntimeconfig.cache
